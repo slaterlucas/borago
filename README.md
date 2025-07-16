@@ -7,7 +7,7 @@ This repository hosts my certificate of completion from [Boragó](https://borago
 Once GitHub Pages is enabled for this repository, visit:
 
 ```
-https://<your-github-username>.github.io/<repository-name>/
+https://slaterlucas.github.io/borago/
 ```
 
 The page displays the certificate image and provides a link to download the PDF version.

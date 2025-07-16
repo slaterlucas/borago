@@ -45,7 +45,7 @@
     
     .content-grid {
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 3rem;
       align-items: start;
       margin-bottom: 3rem;
@@ -67,28 +67,11 @@
     }
     
     .certificate {
-      max-width: 100%;
+      max-width: 60%;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       margin-bottom: 1.5rem;
-    }
-    
-    .download-btn {
-      display: inline-block;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 25px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-    }
-    
-    .download-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
     }
     
     .dish-section {
@@ -111,11 +94,10 @@
     }
     
     .dish {
-      max-width: 80%;
-      max-height: 300px;
+      max-width: 100%;
       height: auto;
-      object-fit: cover;
-      object-position: center;
+      transform: rotate(90deg);
+      object-fit: contain;
       border-radius: 8px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       margin: 0 auto;
